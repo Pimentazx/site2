@@ -1,0 +1,82 @@
+/*Estilização geral do site*/
+body{
+    font-family: "Arial";
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+/*Estilização do header da pagina*/
+header{
+    background-color:blueviolet;
+}
+/*Estilização do LOGOTIPO*/
+.logo{
+    width:25%;
+}
+/*Estilização do MENU*/
+
+.logo_caixa{
+    width: 40%;
+}
+
+
+/*Titulos padrão*/
+.titulos_padrao {
+    text-align: center;
+}
+
+.titulo_site {
+    color: black;
+    border-bottom: 1px, solid black;
+}
+
+.area_site {
+    background-color: white;
+    padding: 40px;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200,200,200);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    margin: auto;
+    width: 80%;
+  }
+  
+  td, th {
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+  }
+  
+  th {
+    background-color: rgb(235,235,235);
+  }
+  
+  td {
+    text-align: center;
+  }
+  
+  
+  
+  caption {
+    padding: 10px;
+  }
+
+.info-qtde {
+  background-color: rgb(255,0,0);
+}
+
+.info-qtde {
+  background-color: rgb(255,0,0);
+}
+
+.input-padrao{
+    
+    margin: 0 0 20px 50px;
+    padding: 10px 25px;
+    width: 20%;
+}

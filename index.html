@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="pt">
+
+<head>
+  <link href="estilo.css" rel="stylesheet">
+  <title>GNP FIT</title>
+  <link href="asets/imagens/gnplogo.ico" rel="shortcut icon">
+</head>
+
+<body>
+  <header>
+    <div class="logo_caixa">
+      <img
+        src="assets/kisspng-sports-car-logo-auto-racing-vector-sports-car-car-wire-frame-png-picture-5a90fc321336a5.2878361915194511860787-removebg-preview.png"
+        class="logo" />
+    </div>
+  </header>
+
+  <!--Sobre a empresa-->
+  <section class="area_site">
+    <h1 class="titulo_site"> Lista de Encomendas</h1>
+    <hr />
+  </section>
+  <table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Produto</th>
+        <th>Quantidade</th>
+        <th>Valor Unitario</th>
+        <th>Total</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="clientes">
+        <td class="nome">Chevrolet</td>
+        <td>Chevrolet Onix 2019</td>
+        <td class="qtde">3</td>
+        <td class="unitario">500</td>
+        <td class="total">-</td>
+      </tr>
+      <tr class="clientes">
+        <td class="nome">Ford </td>
+        <td>Ford Ranger 2017</td>
+        <td class="qtde">2</td>
+        <td class="unitario">800</td>
+        <td class="total">-</td>
+      </tr>
+      <tr class="clientes">
+        <td class="nome">Hyundai</td>s
+        <td>HB20 2022</td>
+        <td class="qtde">b</td>
+        <td class="unitario">400</td>
+        <td class="total">-</td>
+      </tr>
+      <tr class="clientes">
+        <td class="nome">Fiat</td>
+        <td>Fiat Toro 2023</td>
+        <td class="qtde"> 2</td>
+        <td class="unitario">a</td>
+        <td class="total">-</td>
+      </tr>
+    </tbody>
+  </table>
+  <section class="area_site">
+    <h1 class="titulo_site"> Adicionar nova encomenda</h1>
+    <hr />
+  </section>
+  <label for="nome">Nome:</label>
+  <input type="text" id="nome" name="" class="input-padrao" required placeholder="Digite o nome do(a) cliente">
+
+  <label for="qtde">Qtde:</label>
+  <input type="qtde" id="qtde" name="" class="input-padrao" required placeholder="Digite a quantidade encomendada">
+
+  <label for="prod">Produto:
+    <select>
+      <option>Selecione</option>
+      <option>A</option>
+      <option>B</option>
+      <option>C</option>
+      <option>D</option>
+    </select>
+  </label>
+
+  <label for="unit">R$ Unitario:</label>
+  <input type="unit" id="unit" name="" class="input-padrao" placeholder="Digite o valor unitario do produto">
+
+  <input type="submit" value="Adicionar" class="adicionar">
+
+  <script src="javascript.js"></script>
+
+</body>
+
+</html>
