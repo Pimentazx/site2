@@ -55,14 +55,27 @@ function validaUnit(valor) {
 }
 
 // Função para calcular o valor total da encomenda
-function CalculaTotalEncomenda(valor) {
-    if (valor < 1 || isNaN(valor)) {
-        return false
-    } else {
-        return true
-    }
+
+
+function adicionarEncomenda() {
+    var nome = document.getElementById("nome").value;
+    var qtde = document.getElementById("qtde").value;
+    var produto = document.getElementById("produto").value;
+    var unit = document.getElementById("unit").value;
+  
+    var table = document.getElementById("tabela-encomendas").getElementsByTagName('tbody')[0];
+    var newRow = table.insertRow(table.rows.length);
+  
+    var cellNome = newRow.insertCell(0);
+    var cellProduto = newRow.insertCell(1);
+    var cellQtde = newRow.insertCell(2);
+    var cellUnit = newRow.insertCell(3);
+    var cellTotal = newRow.insertCell(4);
+  
+    cellNome.innerHTML = nome;
+    cellProduto.innerHTML = produto;
+    cellQtde.innerHTML = qtde;
+    cellUnit.innerHTML = formataValor(unit);
+    cellTotal.innerHTML = formataValor(qtde * unit);
 }
-
-
-
 

@@ -10,9 +10,7 @@
 <body>
   <header>
     <div class="logo_caixa">
-      <img
-        src="assets/kisspng-sports-car-logo-auto-racing-vector-sports-car-car-wire-frame-png-picture-5a90fc321336a5.2878361915194511860787-removebg-preview.png"
-        class="logo" />
+      <img src="assets/kisspng-sports-car-logo-auto-racing-vector-sports-car-car-wire-frame-png-picture-5a90fc321336a5.2878361915194511860787-removebg-preview.png" class="logo" />
     </div>
   </header>
 
@@ -21,7 +19,7 @@
     <h1 class="titulo_site"> Lista de Encomendas</h1>
     <hr />
   </section>
-  <table>
+  <table id="tabela-encomendas">
     <thead>
       <tr>
         <th>Nome</th>
@@ -47,9 +45,9 @@
         <td class="total">-</td>
       </tr>
       <tr class="clientes">
-        <td class="nome">Hyundai</td>s
-        <td>HB20 2022</td>
-        <td class="qtde">b</td>
+        <td class="nome">Hyundai</td>
+        <td>Hyundai HB20 2022</td>
+        <td class="qtde">3</td>
         <td class="unitario">400</td>
         <td class="total">-</td>
       </tr>
@@ -57,7 +55,7 @@
         <td class="nome">Fiat</td>
         <td>Fiat Toro 2023</td>
         <td class="qtde"> 2</td>
-        <td class="unitario">a</td>
+        <td class="unitario">300</td>
         <td class="total">-</td>
       </tr>
     </tbody>
@@ -70,25 +68,25 @@
   <input type="text" id="nome" name="" class="input-padrao" required placeholder="Digite o nome do(a) cliente">
 
   <label for="qtde">Qtde:</label>
-  <input type="qtde" id="qtde" name="" class="input-padrao" required placeholder="Digite a quantidade encomendada">
+  <input type="number" id="qtde" name="" class="input-padrao" required placeholder="Digite a quantidade encomendada">
 
   <label for="prod">Produto:
-    <select>
+    <select id="produto">
       <option>Selecione</option>
-      <option>A</option>
-      <option>B</option>
-      <option>C</option>
-      <option>D</option>
+      <option>Volksvagem Voyage 2014</option>
+      <option>Pegueot 208 2018</option>
+      <option>Toyota Corolla 2020</option>
+      <option>Renault Clio 2015</option>
     </select>
   </label>
 
   <label for="unit">R$ Unitario:</label>
-  <input type="unit" id="unit" name="" class="input-padrao" placeholder="Digite o valor unitario do produto">
+  <input type="number" id="unit" name="" class="input-padrao" placeholder="Digite o valor unitario do produto">
 
-  <input type="submit" value="Adicionar" class="adicionar">
+  <input type="button" value="Adicionar" class="adicionar" onclick="adicionarEncomenda()">
 
   <script src="javascript.js"></script>
-
 </body>
 
 </html>
+
