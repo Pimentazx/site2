@@ -1,91 +1,117 @@
 /*Estilização geral do site*/
-body{
-    font-family: "Arial";
-    margin: 0;
-    padding: 0;
-    border: 0;
+body {
+  font-family: "Arial";
+  margin: 0;
+  padding: 0;
+  border: 0;
 
 }
+
 /*Estilização do header da pagina*/
-header{
-    background-color:blueviolet;
+header {
+  background-color: blueviolet;
 }
+
 /*Estilização do LOGOTIPO*/
-.logo{
-    width:25%;
+.logo {
+  width: 25%;
 }
+
 /*Estilização do MENU*/
 
-.logo_caixa{
-    width: 40%;
+.logo_caixa {
+  width: 40%;
 }
 
 
 /*Titulos padrão*/
 .titulos_padrao {
-    text-align: center;
+  text-align: center;
 }
 
 .titulo_site {
-    color: black;
-    border-bottom: 1px, solid black;
+  color: black;
+  border-bottom: 1px, solid black;
 }
 
 .area_site {
-    background-color: white;
-    padding: 40px;
+  background-color: white;
+  padding: 40px;
 }
 
 
 
 table {
-    border-collapse: collapse;
-    border: 2px solid rgb(200,200,200);
-    letter-spacing: 1px;
-    font-size: 0.8rem;
-    margin: auto;
-    width: 80%;
-  }
-  
-  td, th {
-    border: 1px solid rgb(190,190,190);
-    padding: 10px 20px;
-  }
-  
-  th {
-    background-color: rgb(235,235,235);
-  }
-  
-  td {
-    text-align: center;
-  }
-  
-  
-  
-  caption {
-    padding: 10px;
-  }
+  border-collapse: collapse;
+  border: 2px solid rgb(200, 200, 200);
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+  margin: auto;
+  width: 80%;
+}
 
-.info-qtde {
-  background-color: rgb(255,0,0);
+td,
+th {
+  border: 1px solid rgb(190, 190, 190);
+  padding: 10px 20px;
+}
+
+th {
+  background-color: rgb(235, 235, 235);
+}
+
+td {
+  text-align: center;
+}
+
+
+
+caption {
+  padding: 10px;
 }
 
 .info-qtde {
-  background-color: rgb(255,0,0);
+  background-color: rgb(255, 0, 0);
 }
 
-.input-padrao{
-    
-    margin: 0 0 20px 50px;
-    padding: 10px 25px;
-    width: 20%;
+.info-qtde {
+  background-color: rgb(255, 0, 0);
 }
 
-.adicionar{
-  background-color: blueviolet; 
-  color: white; 
-  padding: 10px 20px; 
-  border: none; 
-  cursor: pointer; 
-  font-size: 16px; 
+.input-padrao {
+  padding: 10px 25px;
+  width: 40%;
+}
+
+.adicionar {
+  background-color: blueviolet;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  
+}
+
+.erro {
+  color: red;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.design {
+ display: inline-block; 
+ width: 40%;
+ padding-left: 7%;
+ padding-bottom: 1%;
+}
+
+#filtrar-tabela{
+  width: 19.5%;
+  height: 35px;
+  margin-bottom: 10px;
+}
+
+.invisivel{
+  display:none;
 }
