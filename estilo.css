@@ -9,7 +9,7 @@ body {
 
 /*Estilização do header da pagina*/
 header {
-  background-color: blueviolet;
+  background-color: #702632;
 }
 
 /*Estilização do LOGOTIPO*/
@@ -31,11 +31,11 @@ header {
 
 .titulo_site {
   color: black;
-  border-bottom: 1px, solid black;
+  border-bottom: 1px, solid 080705;
 }
 
 .area_site {
-  background-color: white;
+  background-color: #FFFFFA;
   padding: 40px;
 }
 
@@ -71,11 +71,11 @@ caption {
 }
 
 .info-qtde {
-  background-color: rgb(255, 0, 0);
+  background-color: #912f40;
 }
 
 .info-qtde {
-  background-color: rgb(255, 0, 0);
+  background-color: #912f40;
 }
 
 .input-padrao {
@@ -84,7 +84,7 @@ caption {
 }
 
 .adicionar {
-  background-color: blueviolet;
+  background-color: #702632;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -94,7 +94,7 @@ caption {
 }
 
 .erro {
-  color: red;
+  color: #702632;
   margin-top: 5px;
   font-size: 14px;
 }
@@ -114,4 +114,14 @@ caption {
 
 .invisivel{
   display:none;
+}
+
+.cor_fundo {
+  background-color: #FFFFFA;
+}
+
+.botoes {
+  width: 20%;
+  padding-left: 4%;
+  padding-bottom: 1%;
 }
