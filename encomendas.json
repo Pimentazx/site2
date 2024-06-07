@@ -1,38 +1,38 @@
 {
     "encomendas": [
         {
-            "nome": "Bruce Wayne",
-            "produto": "Camisa alemanha 20/21",
+            "nome": "BMW",
+            "produto": "M3",
             "qtde": 3,
-            "valor_unitario": 130,
+            "unit": 800,
             "total": 0
         },
         {
-            "nome": "Capitão America",
-            "produto": "Camisa Bahia 23/24",
+            "nome": "Mercedes-Benz",
+            "produto": "amg GLE",
             "qtde": 2,
-            "valor_unitario": 100,
+            "unit": 1000,
             "total": 0
         },
         {
-            "nome": "Gabibol",
-            "produto": "Camisa Corinthias 23/24",
+            "nome": "Jeep",
+            "produto": "Renegade",
             "qtde": 1,
-            "valor_unitario": 200,
+            "unit": 700,
             "total": 0
         },
         {
-            "nome": "Ciborgue",
-            "produto": "Camisa do Atletico de Madri",
+            "nome": "Honda",
+            "produto": "HR-V",
             "qtde": 5,
-            "valor_unitario": 130,
+            "unit": 600,
             "total": 0
         },
         {
-            "nome": "Messi",
-            "produto": "Camisa Vasco da Gama",
+            "nome": "Mitsubishi",
+            "produto": "Lancer Evolution",
             "qtde": 5,
-            "valor_unitario": 80,
+            "unit": 650,
             "total": 0
         }
     ]
